@@ -165,7 +165,7 @@ line = plt.plot(X, Y, color='gray', label='p = 0.5')
 
 # plt.xlim(0, 500)
 plt.ylim(0, 2200)
-plt.xlabel('Dryft generatora, $\Delta f$ ($kHz$)')
+plt.xlabel("Dryft generatora, $\Delta f$ ($kHz$)")
 # plt.xticks(np.arange(0, 500, step=50))
 plt.ylabel('Dobroc rezonatora, $Q$')
 plt.legend(loc='upper right')
