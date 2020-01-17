@@ -13,11 +13,12 @@ class CSzyfrant:
 
 class kooder(CSzyfrant):
     def __init__(self,key):
-        self.klucz=key
+        CSzyfrant.__init__(self,key)
 
     def wykres(self):
-    szyfrant=CSszyfrant(self.klucz)
+        x=[]
+        y=[]
         for a in range(-255, 256, 1):
-        x.append(a)
-        y.append(szyfrant.szyfruj(a))
-    return (x,y)
+            x.append(a)
+            y.append(self.szyfruj(a))
+        return (x,y)

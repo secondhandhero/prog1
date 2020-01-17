@@ -12,7 +12,8 @@ class CSzyfrant:
 
 
 class CKooder(CSzyfrant):
-
+    def __init__(self,key):
+        CSzyfrant.__init__(self,key)
     def wykres(self):
         x = []
         y = []
