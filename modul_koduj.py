@@ -21,4 +21,4 @@ class CKooder(CSzyfrant):
             x.append(a)
             y.append(self.szyfruj(a))
         return x,y
-print('nowa gałąz')
+print('nowa gałą')
