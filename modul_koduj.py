@@ -20,5 +20,3 @@ class CKooder(CSzyfrant):
         for a in range(-255, 256, 1):
             x.append(a)
             y.append(self.szyfruj(a))
-        return x,y
-print('nowa gałą')
